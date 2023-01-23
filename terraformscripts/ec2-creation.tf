@@ -8,7 +8,7 @@ resource "aws_instance" "AWSEC2Instance"{
      security_groups = ["launch-wizard-2"]
      key_name        = "bhaskardevops"
      tags = {
-        Name = "tomcatserverss"
+        Name = "tomcatservers"
      }
 }
 
